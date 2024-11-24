@@ -5,7 +5,6 @@ import ollama
 st.title("💬 Chatbot")
 st.caption("🚀 A Streamlit chatbot powered by Llama-vision: Multimodal")
 
-# Initialize the session state for messages
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
 
